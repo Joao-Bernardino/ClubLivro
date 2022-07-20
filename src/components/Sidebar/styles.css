@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-right: 2rem;
+  height: 98vh;
+  width: 15vw;
+
+  box-shadow: .4rem 0 5rem rgb(155, 146, 146);
+}
+
+nav .logo{
+  width: 100%;
+  margin-bottom: 1rem;
+  border-bottom: .2rem solid rgb(89, 193, 219);
+}
+
+nav div img{
+  height: 100%;
+  width: 100%;
+}
+
+nav p {
+  font-family: 'Poppins';
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem;
+}
